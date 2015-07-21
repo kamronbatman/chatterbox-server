@@ -26,6 +26,7 @@ module.exports = {
   },
 
   getMessages: function() {
-    return messages.slice(0,100);
+    return messages;
+    //return messages.slice(0,100);
   }
 };

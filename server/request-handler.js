@@ -61,6 +61,7 @@ var postUrls = {
 
     req.on('end', function(){
       var newObj = mh.addMessage(data);
+      console.log('Added the message!', new Date());
 
       var statusCode = 201;
       var headers = defaultCorsHeaders;
